@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use the licence tables or the numbers, please cite the catalogue datasheet."
+title: "XIM Audio catalogue: licensed music production data for AI training"
+authors:
+  - name: "XIM Audio Inc."
+date-released: "2026-11-01"
+url: "https://ximaudio.com"
+repository-code: "https://github.com/ximaudio/datasets"
+doi: "10.5281/zenodo.23883162"
+license: CC-BY-4.0

@@ -1,0 +1,7 @@
+dataset,holds,licence,commercial_use,note,source,checked_on
+Mix Evaluation Dataset,"10 songs and 180 mixes made by students in Pro Tools 10 (one group in Logic Pro X), with the DAW sessions and parameter settings for most mixes and listening-test ratings",Raw tracks of six of the ten songs CC BY 4.0; the other songs are copyrighted and not online,per track,six songs CC BY 4.0,https://www.dafx.de/paper-archive/2017/papers/DAFx17_paper_49.pdf,2026-11-02
+MixologyDB (MixParams),"Effect parameter values per track as JSON, read from the Mix Evaluation sessions; no session files, no automation",MIT on the repository,yes,parameter values only,https://github.com/mclemcrew/MixologyDB,2026-11-02
+MixAssist,"7 recorded mixing sessions between expert and amateur producers, 431 conversational turns with the DAW playback; audio and text, no project files",CC BY 4.0,yes,no project files,https://zenodo.org/records/15848443,2026-11-02
+Cambridge-MT (Mixing Secrets),Raw multitrack audio of hundreds of songs; no project files,Educational purposes as agreed with the contributors; no formal licence,no,ask each contributor,https://cambridge-mt.com/ms/mtk-faq,2026-11-02
+Slakh2100,"2,100 MIDI songs rendered with sample libraries: MIDI plus stems, no project files",CC BY 4.0,yes,synthetic renders,https://zenodo.org/records/4599666,2026-11-02
+CoT Music Production DAW,"7,000 question and answer pairs about FL Studio and Ableton Live; text only, no project files",MIT,yes,text only,https://huggingface.co/datasets/mattwesney/CoT_Music_Production_DAW,2026-11-02

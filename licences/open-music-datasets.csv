@@ -1,0 +1,19 @@
+dataset,holds,licence,commercial_use,note,source,checked_on
+MUSDB18,"150 songs, about 10 h, mix plus four stems (vocals, drums, bass, other), encoded audio",Educational use only; no commercial use without the copyright holders' permission,no,,https://zenodo.org/records/1117372,2026-11-01
+MUSDB18-HQ,The same 150 songs as uncompressed WAV,"Educational use only, as MUSDB18",no,,https://zenodo.org/records/3338373,2026-11-01
+MoisesDB,"240 songs from 45 artists in 12 genres, mix plus stems per instrument",CC BY-NC-SA 4.0,no,,https://github.com/moises-ai/moises-db,2026-11-01
+MedleyDB 1.0 and 2.0,"196 multitracks (122 plus 74): mix, processed stems and raw audio, with annotations","CC BY-NC-SA 4.0, non-commercial research use only",no,,https://zenodo.org/records/1649325,2026-11-01
+Slakh2100,"2,100 songs, 145 h, stems rendered from MIDI with sample libraries, MIDI aligned",CC BY 4.0,yes,synthetic renders,https://zenodo.org/records/4599666,2026-11-01
+Cambridge-MT (Mixing Secrets),Raw multitrack sessions from the Mixing Secrets library,Educational purposes as agreed with the contributors; no formal licence,no,ask each contributor,https://cambridge-mt.com/ms/mtk-faq,2026-11-01
+DSD100,"100 songs, mix plus four stems, the SiSEC 2016 set",None stated; refers to the Mixing Secrets terms,not stated,,https://sigsep.github.io/datasets/dsd100.html,2026-11-01
+FMA,"106,574 full tracks, 343 days of audio",Audio under the licence each artist chose; metadata CC BY 4.0,per track,,https://github.com/mdeff/fma,2026-11-01
+MTG-Jamendo,"55,000 full tracks with tags",Non-commercial research and academic use only; metadata CC BY-NC-SA 4.0,no,written permission from Jamendo,https://github.com/MTG/mtg-jamendo-dataset,2026-11-01
+Lakh MIDI,"176,581 MIDI files collected from the web, no audio",CC BY 4.0 for the collection,yes,MIDI only; the songs themselves are not cleared,https://colinraffel.com/projects/lmd/,2026-11-01
+MAESTRO,"1,276 piano performances, 198.7 h, audio aligned with MIDI",CC BY-NC-SA 4.0,no,,https://magenta.tensorflow.org/datasets/maestro,2026-11-01
+GuitarSet,"360 guitar excerpts of about 30 s, about 3 h, with annotations",CC BY 4.0,yes,,https://zenodo.org/records/3371780,2026-11-01
+MusicNet,330 freely licensed classical recordings with note labels,CC BY 4.0,yes,,https://zenodo.org/records/5120004,2026-11-01
+URMP,"44 classical pieces, one recording per instrument, MIDI score and video",None stated,not stated,,https://labsites.rochester.edu/air/projects/URMP.html,2026-11-01
+RWC Music Database,"315 pieces across popular, classical and jazz, plus instrument sounds",Research-only pledge,no,,https://staff.aist.go.jp/m.goto/RWC-MDB/,2026-11-01
+MusicCaps,"5,521 captions for 10 s YouTube clips, no audio",CC BY-SA 4.0 for the captions,per track,captions only; the audio is not covered,https://huggingface.co/datasets/google/MusicCaps,2026-11-01
+Song Describer,"About 1,100 captions for 706 recordings","CC BY-SA 4.0 for the captions; audio per track, about seven in ten non-commercial",per track,,https://zenodo.org/records/10072001,2026-11-01
+Million Song Dataset,"Features and metadata for a million tracks, no audio",Echo Nest API terms; tags CC BY-NC-SA 2.0,not stated,no audio,http://millionsongdataset.com/faq/,2026-11-01

@@ -1,0 +1,8 @@
+The text, the numbers (catalogue.json) and the licence tables (licences/*.csv) in this repository are
+licensed under Creative Commons Attribution 4.0 International (CC BY 4.0): https://creativecommons.org/licenses/by/4.0/
+Credit: XIM Audio Inc., https://ximaudio.com
+
+The code in tools/ and examples/ is licensed under the MIT licence, see LICENSE-CODE.
+
+The XIM Audio datasets are not part of this repository. They are licensed per set, on request, under their own terms:
+https://ximaudio.com/rights
