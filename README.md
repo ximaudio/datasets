@@ -14,23 +14,23 @@ house and trance.
 The data is licensed per set, non-exclusive, on request: **[ximaudio.com/request](https://ximaudio.com/request?ref=github)**.
 Sample first, then a quote.
 
-## The sets, measured 2026-11-01
+## The sets, measured 2026-11-13
 
 | Set | Size | Files | Hours of audio | |
 |---|---:|---:|---:|---|
-| **Stems** | 3,923 stems packs | 98,246 | 8,152.9 | [page](https://ximaudio.com/data/stems?ref=github) · [card](https://huggingface.co/datasets/ximaudio/stems) |
-| **Paired production sets** | 3,267 songs | 116,770 | 6,596.2 | [page](https://ximaudio.com/data/paired-sets?ref=github) · [card](https://huggingface.co/datasets/ximaudio/paired-sets) |
+| **Stems** | 4,408 stems packs | 117,622 | 9,669.2 | [page](https://ximaudio.com/data/stems?ref=github) · [card](https://huggingface.co/datasets/ximaudio/stems) |
+| **Paired production sets** | 3,637 songs | 137,485 | 7,790.2 | [page](https://ximaudio.com/data/paired-sets?ref=github) · [card](https://huggingface.co/datasets/ximaudio/paired-sets) |
 | **Vocal and instrumental pairs** | 2,006 pairs | 4,012 | 221.5 | [page](https://ximaudio.com/data/acapella-instrumental-pairs?ref=github) · [card](https://huggingface.co/datasets/ximaudio/acapella-instrumental-pairs) |
-| **DAW sessions** | 9,466 sessions |  | 691.8 | [page](https://ximaudio.com/data/daw-sessions?ref=github) · [card](https://huggingface.co/datasets/ximaudio/daw-sessions) |
+| **DAW sessions** | 9,463 sessions |  | 691.2 | [page](https://ximaudio.com/data/daw-sessions?ref=github) · [card](https://huggingface.co/datasets/ximaudio/daw-sessions) |
 | **Tutorial sessions** | 378 episodes |  | 224.2 | [page](https://ximaudio.com/data/tutorial-sessions?ref=github) · [card](https://huggingface.co/datasets/ximaudio/tutorial-sessions) |
-| **MIDI files** | 1,626 packs | 287,350 |  | [page](https://ximaudio.com/data/midi?ref=github) · [card](https://huggingface.co/datasets/ximaudio/midi) |
-| **Synth presets** | 445 packs | 167,512 |  | [page](https://ximaudio.com/data/presets?ref=github) · [card](https://huggingface.co/datasets/ximaudio/presets) |
-| **Loops and one-shots** | 1,677 packs | 454,487 |  | [page](https://ximaudio.com/data/loops-one-shots?ref=github) · [card](https://huggingface.co/datasets/ximaudio/loops-one-shots) |
+| **MIDI files** | 1,633 packs | 289,034 |  | [page](https://ximaudio.com/data/midi?ref=github) · [card](https://huggingface.co/datasets/ximaudio/midi) |
+| **Synth presets** | 445 packs | 167,387 |  | [page](https://ximaudio.com/data/presets?ref=github) · [card](https://huggingface.co/datasets/ximaudio/presets) |
+| **Loops and one-shots** | 1,695 packs | 458,371 |  | [page](https://ximaudio.com/data/loops-one-shots?ref=github) · [card](https://huggingface.co/datasets/ximaudio/loops-one-shots) |
 | **Instrumentals** | 3,351 tracks |  | 184.3 | [page](https://ximaudio.com/data/instrumentals?ref=github) · [card](https://huggingface.co/datasets/ximaudio/instrumentals) |
-| **Stock music** | 1,925 tracks |  | 81.2 | [page](https://ximaudio.com/data/stock-music?ref=github) · [card](https://huggingface.co/datasets/ximaudio/stock-music) |
-| **Marketplace data** | 54,348 rows |  |  | [page](https://ximaudio.com/data/marketplace-data?ref=github) · [card](https://huggingface.co/datasets/ximaudio/marketplace-data) |
+| **Stock music** | 1,927 tracks |  | 81.4 | [page](https://ximaudio.com/data/stock-music?ref=github) · [card](https://huggingface.co/datasets/ximaudio/stock-music) |
+| **Marketplace data** | 54,446 rows |  |  | [page](https://ximaudio.com/data/marketplace-data?ref=github) · [card](https://huggingface.co/datasets/ximaudio/marketplace-data) |
 
-Stems, by DAW: Logic 2,275, Ableton 1,101, Cubase 14, FL Studio 5. Median 24 lanes per song; eight songs in ten have
+Stems, by DAW: Logic 2,258, Ableton 1,485, Fl studio 117, Cubase 14, FL Studio 6. Median 24 lanes per song; eight songs in ten have
 between 12 and 45. Each lane carries one of 53 instrument labels in the manifest.
 
 ## How the stems are made
@@ -103,7 +103,7 @@ folder where the session had notes, and `manifest.csv` with a creator-level trai
   year = {2026},
   url = {https://ximaudio.com},
   doi = {10.5281/zenodo.23883162},
-  note = {Catalogue measured 2026-11-01; audio licensed on request}
+  note = {Catalogue measured 2026-11-13; audio licensed on request}
 }
 ```
 
