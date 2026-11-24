@@ -14,6 +14,15 @@ house and trance.
 The data is licensed per set, non-exclusive, on request: **[ximaudio.com/request](https://ximaudio.com/request?ref=github)**.
 Sample first, then a quote.
 
+## Research Award: 150 songs for 3 to 5 university projects
+
+The **XIM Audio Research Award** gives one fixed research set, XIM-150, to 3 to 5 university projects at no cost: 150 songs
+with every lane as its own WAV, the unmastered mix, the MIDI where the session had it and the DAW session. The split is
+fixed, 100 songs to train and 50 to test, so results can be compared across projects. In return we ask for one thing: cite
+the set in your paper. Students and researchers at a university or a non-profit lab can apply until 15 January 2027:
+**[ximaudio.com/research-award](https://ximaudio.com/research-award?ref=github)**. The award is for this one set. The rest
+of the catalogue is licensed, and research licences are paid.
+
 ## The sets, measured 2026-11-13
 
 | Set | Size | Files | Hours of audio | |
