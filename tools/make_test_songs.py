@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Write six short test songs for check_stems.py: one clean, five broken on purpose.
+"""Write nine short test songs for check_stems.py: one clean, eight broken on purpose.
 
   python3 tools/make_test_songs.py test-songs
   python3 tools/check_stems.py test-songs --all
@@ -8,8 +8,11 @@ clean     three stems that sum to the mix
 missing   the mix holds a part that is not among the stems
 gain      the mix was turned down 6 dB after the stems were printed
 silent    one stem is digital silence
-rate      one stem is at 48 kHz, the rest at 44.1 kHz
+rate      one stem is at 48 kHz, the rest at 44.1 kHz, all four seconds long
 clip      one stem is clipped
+nan-mix   one NaN sample in the mix, and a part missing: must not pass as a perfect sum
+nan-stem  one NaN sample in a float stem
+inf-stem  one Inf sample in a float stem
 
 Noise and a sine, four seconds each: no music in here. Needs numpy and soundfile. MIT licence.
 """
@@ -42,6 +45,14 @@ def make(folder, fault=None, seed=1):
         sf.write(os.path.join(folder, "bass", "04 - empty.wav"), np.zeros((n, 2)), SR, subtype="PCM_24")
     if fault == "rate":
         sf.write(os.path.join(folder, "bass", "04 - other rate.wav"), np.full((48000 * SECONDS, 2), 1e-3), 48000, subtype="PCM_24")
+    if fault in ("nan-stem", "inf-stem"):
+        bad = 0.01 * rng.standard_normal((n, 2))
+        mix = mix + bad
+        bad[n // 2, 0] = np.nan if fault == "nan-stem" else np.inf
+        sf.write(os.path.join(folder, "bass", "04 - float.wav"), bad, SR, subtype="FLOAT")
+    if fault == "nan-mix":
+        mix = mix + 0.05 * rng.standard_normal((n, 2))
+        mix[n // 2, 0] = np.nan
     if fault == "clip":
         sf.write(os.path.join(folder, "bass", "04 - hot.wav"), np.clip(12 * drums, -1, 1), SR, subtype="PCM_24")
     sf.write(os.path.join(folder, "mix.wav"), mix, SR, subtype="FLOAT")
@@ -49,6 +60,6 @@ def make(folder, fault=None, seed=1):
 
 if __name__ == "__main__":
     out = sys.argv[1] if len(sys.argv) > 1 else "test-songs"
-    for i, fault in enumerate((None, "missing", "gain", "silent", "rate", "clip")):
+    for i, fault in enumerate((None, "missing", "gain", "silent", "rate", "clip", "nan-mix", "nan-stem", "inf-stem")):
         make(os.path.join(out, fault or "clean"), fault, seed=i + 1)
     print("written to", out)

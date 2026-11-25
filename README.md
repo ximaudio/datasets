@@ -75,13 +75,15 @@ python3 tools/check_stems.py /path/to/song            # one song folder: a mix f
 python3 tools/check_stems.py /path/to/dataset --all   # every song under a folder
 ```
 
-It reports sample-rate mismatches, stems shorter or longer than the mix, silent stems, clipped stems, and how far
-the stems are from summing to the mix (in dB). Under about -60 dB the stems are the mix. Around -20 dB or higher, a
-part is missing, a bus was processed after the stems were printed, or the stems came out of a separation model.
+It reports files that will not open, NaN or Inf samples, sample-rate mismatches, stems shorter or longer than the
+mix, silent stems, clipped stems, and how far the stems are from summing to the mix (in dB). Under about -60 dB the
+stems are the mix. Around -20 dB or higher, a part is missing, a bus was processed after the stems were printed, or
+the stems came out of a separation model. The sum is only compared when every file opens, every sample is a number
+and all files share one sample rate. Otherwise the residual is left empty and the report says why.
 It works on any folder that holds a mix file and its stems as WAV, FLAC or AIFF: the MUSDB18-HQ layout
 (`mixture.wav` and four stems), or stems in sub-folders by group next to a `mix.wav`.
 
-Try it without any dataset: `python3 tools/make_test_songs.py test-songs` writes one clean song and five broken ones.
+Try it without any dataset: `python3 tools/make_test_songs.py test-songs` writes one clean song and eight broken ones.
 
 ## Read a delivery
 
