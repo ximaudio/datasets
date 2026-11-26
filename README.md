@@ -47,7 +47,7 @@ between 12 and 45. Each lane carries one of 53 instrument labels in the manifest
 Every creator in this set accepted terms that name AI training. Every stem is printed from the creator's own session, part by part, and the manifest says which session it came from. No separation model touched the files. Each WAV is one lane of the session, printed with its
 plugins loaded, and every song ships with the unity-gain sum of its lanes, so the parts and the mix agree to the sample.
 
-Every creator sells on WeMakeDanceMusic, a music production marketplace online since 2012, under terms that name
+Every creator sells on a music production marketplace online since 2012, under terms that name
 machine learning, keeps ownership and is paid on every licence. Nothing is scraped. Deliveries are anonymised:
 pseudonymous IDs, no titles, no artist or producer names.
 
